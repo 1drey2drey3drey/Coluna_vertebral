@@ -10,17 +10,16 @@
 
 ## 📋 Índice
 
-- [Sobre o Projeto](#sobre-o-projeto)
-- [Dataset](#dataset)
-- [Estrutura do Projeto](#estrutura-do-projeto)
-- [Instalação](#instalação)
-- [Como Usar](#como-usar)
-- [Resultados](#resultados)
-- [Tecnologias Utilizadas](#tecnologias-utilizadas)
-- [Metodologia](#metodologia)
-- [Autores](#autores)
-- [Licença](#licença)
-- [Referências](#referências)
+- [Sobre o Projeto]
+- [Dataset]
+- [Instalação]
+- [Como Usar]
+- [Resultados]
+- [Tecnologias Utilizadas]
+- [Metodologia]
+- [Autores]
+- [Licença]
+- [Referências]
 
 ---
 
