@@ -1,0 +1,13 @@
+# Core Libraries
+pandas
+numpy
+matplotlib
+seaborn
+scipy
+
+# Machine Learning and Statistics
+statsmodels
+scikit-learn
+
+# PyCaret (A instalação de pycaret é mais complexa e pode precisar de dependências adicionais)
+pycaret[full]
