@@ -1,13 +1,109 @@
-# Core Libraries
-pandas
-numpy
-matplotlib
-seaborn
-scipy
+# ===================================================================
+# REQUIREMENTS.TXT - Projeto Coluna Vertebral
+# Compatível com Python 3.8+
+# ===================================================================
 
-# Machine Learning and Statistics
-statsmodels
-scikit-learn
+# Core Data Science Libraries
+# ===================================================================
+numpy>=1.24.0,<2.0.0
+pandas>=2.0.0,<3.0.0
+scipy>=1.11.0,<2.0.0
 
-# PyCaret (A instalação de pycaret é mais complexa e pode precisar de dependências adicionais)
-pycaret[full]
+# Data Visualization
+# ===================================================================
+matplotlib>=3.7.0,<4.0.0
+seaborn>=0.12.0,<1.0.0
+
+# Machine Learning
+# ===================================================================
+scikit-learn>=1.3.0,<2.0.0
+
+# Statistical Analysis
+# ===================================================================
+statsmodels>=0.14.0,<1.0.0
+
+# AutoML (Opcional - comentar se não usar PyCaret)
+# ===================================================================
+pycaret>=3.0.0,<4.0.0
+
+# Jupyter Environment
+# ===================================================================
+jupyter>=1.0.0
+notebook>=7.0.0
+ipykernel>=6.25.0
+ipywidgets>=8.1.0
+
+# Utilities
+# ===================================================================
+tqdm>=4.66.0  # Progress bars
+openpyxl>=3.1.0  # Excel support
+xlrd>=2.0.0  # Excel support (old format)
+
+# Optional: Deep Learning (descomentar se necessário)
+# ===================================================================
+# tensorflow>=2.13.0,<3.0.0
+# keras>=2.13.0,<3.0.0
+# torch>=2.0.0
+
+# Optional: Model Persistence
+# ===================================================================
+joblib>=1.3.0  # Para salvar modelos
+
+# Optional: Kaggle API (para download automático do dataset)
+# ===================================================================
+# kaggle>=1.5.0
+
+# Development Tools (Opcional)
+# ===================================================================
+# pytest>=7.4.0  # Testing
+# black>=23.7.0  # Code formatting
+# flake8>=6.1.0  # Linting
+# mypy>=1.5.0  # Type checking
+
+# ===================================================================
+# NOTAS DE INSTALAÇÃO
+# ===================================================================
+#
+# Instalação básica (obrigatória):
+#   pip install -r requirements.txt
+#
+# Instalação sem PyCaret (mais leve):
+#   pip install numpy pandas scipy matplotlib seaborn scikit-learn statsmodels jupyter notebook
+#
+# Instalação completa com ferramentas de desenvolvimento:
+#   pip install -r requirements.txt
+#   pip install pytest black flake8 mypy
+#
+# Para usar com Kaggle API:
+#   pip install kaggle
+#   kaggle datasets download -d jessanrod3/vertebralcolumndataset
+#
+# ===================================================================
+# COMPATIBILIDADE
+# ===================================================================
+#
+# Python: 3.8, 3.9, 3.10, 3.11, 3.12
+# Sistema Operacional: Windows, Linux, macOS
+# RAM mínima recomendada: 4GB (8GB para PyCaret)
+# Espaço em disco: ~500MB (com todas as dependências)
+#
+# ===================================================================
+# TROUBLESHOOTING
+# ===================================================================
+#
+# Erro com PyCaret:
+#   - PyCaret pode ter conflitos de dependências
+#   - Solução 1: Instalar em ambiente virtual limpo
+#   - Solução 2: Comentar pycaret e usar apenas sklearn
+#
+# Erro com statsmodels:
+#   pip install --upgrade statsmodels
+#
+# Erro com matplotlib no macOS:
+#   pip install --upgrade matplotlib
+#   # Se persistir: brew install python-tk
+#
+# Erro "No module named 'sklearn'":
+#   pip install --upgrade scikit-learn
+#
+# ===================================================================
